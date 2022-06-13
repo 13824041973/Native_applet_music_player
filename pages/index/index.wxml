@@ -1,0 +1,28 @@
+<view>
+<!-- swiper -->
+<!-- 是否显示面板指示点
+    是否自动播放 
+    自动切换时间间隔
+    滑动动画时长 -->
+  <swiper indicator-dots="true"
+        autoplay="true" interval="2000" duration="500">
+    <block wx:for="{{musicBox}}" wx:key="index">
+      <swiper-item bindtap="navTo" id="{{index}}">
+        <image src="{{item.picUrl}}" class="swiperIma" mode="aspectFill"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 歌单 -->
+  <view wx:for="{{musicBox}}" wx:key="index" class="musicBox" bindtap="navTo" id="{{index}}">
+    <!-- 图片 -->
+    <image src="{{item.picUrl}}" class="musicBoxImg" mode="aspectFill"/>
+    <!-- 文字 -->
+    <view>
+      <text class="musicBoxText">{{item.name}}</text>
+      <view class="musicBoxText">{{item.artists}}</view>
+    </view>
+    <!-- 播放按钮 -->
+    <image wx:if="{{!item.isPlay}}" catchtap="play" src="../../images/play.png" class="musicBoxPlay" id="{{index}}"></image>
+    <image wx:else catchtap="play" src="../../images/pause.png" class="musicBoxPlay" id="{{index}}"></image>
+  </view>
+</view>

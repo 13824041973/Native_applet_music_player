@@ -1,0 +1,42 @@
+<!--pages/play/play.wxml-->
+<view class="box">
+  <!-- 头部 -->
+  <view class="head">
+    <text class="title">{{musicVal.name}}</text>
+    <text>{{musicVal.name}}-{{musicVal.artists}}</text>
+  </view>
+  <!-- 身体 -->
+  <view class="content">
+    <view class="zhuanBox" style="background-image: url(../../images/radio.png);">
+      <view class="imgBox" style="background-image: url({{musicVal.picUrl}});">
+      </view>
+    </view>
+  </view>
+  <!-- 底部 -->
+  <view class="footer">
+    <!-- 进度条 -->
+    <view class="progressBox">
+      <text>{{currentTime}}</text>
+      <!-- <progress class="progress" percent="{{percent}}" activeColor="#DC143C" border-radius="5"></progress> -->
+
+
+      <slider class="progress" value="{{percent}}" activeColor="#DC143C" block-size="16" block-color="#dc143c" bindchange="bindchange"></slider>
+      <text>{{duration}}</text>
+    </view>
+    <!-- 菜单栏 -->
+    <view class="menuBox">
+    <!-- 是否循环播放 -->
+      <view wx:if="{{loop}}" class="menu-bottom min" style="background-image: url(../../images/single.png);" bindtap="isloop"></view>
+      <view wx:else class="menu-bottom min" style="background-image: url(../../images/loop.png);" bindtap="isloop"></view>
+      <!-- 上一首 -->
+      <view class="menu-bottom" style="background-image: url(../../images/prev.png);" bindtap="pre"></view>
+      <!-- 播放暂停 -->
+      <view wx:if="{{!isPlay}}" class="menu-bottom" style="background-image: url(../../images/play.png);" bindtap="play" data-mp3Url="{{musicVal.mp3Url}}"></view>
+      <view wx:else class="menu-bottom" style="background-image: url(../../images/pause.png);" bindtap="play" data-mp3Url="{{musicVal.mp3Url}}"></view>
+      <!-- 下一首 -->
+      <view class="menu-bottom" style="background-image: url(../../images/next.png);" bindtap="next"></view>
+
+      <view class="menu-bottom min" style="background-image: url(../../images/share.png);"></view>
+    </view>
+  </view>
+</view>

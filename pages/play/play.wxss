@@ -1,0 +1,94 @@
+/* pages/play/play.wxss */
+.box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000;
+}
+
+.head {
+  width: 100%;
+  height: 16%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #303030;
+  box-shadow: 0 0 5px white inset;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.content {
+  width: 100%;
+  height: 63%;
+  background-color: rgb(75, 74, 74);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zhuanBox {
+  width: 250px;
+  height: 250px;
+  background-size: contain;
+  border-radius: 50%;
+  border: 5px solid rgb(158, 158, 157);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgBox {
+  width: 125px;
+  height: 125px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  border: 4px solid rgb(78, 78, 78);
+}
+
+.footer {
+  width: 100%;
+  height: 21%;
+  background-color: rgb(48, 48, 48);
+  box-shadow: 0 0 5px white inset;
+}
+
+.progressBox {
+  padding: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.progressBox text {
+  width: 20%;
+  text-align: center;
+}
+
+.progress {
+  width: 60%;
+  margin: 5px;
+}
+
+.menuBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-bottom {
+  width: 45px;
+  height: 45px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.min {
+  width: 30px;
+  height: 30px;
+}

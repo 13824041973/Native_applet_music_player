@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/play/play"
+  ],
+  "tabBar": {
+    "selectedColor": "#DC143C",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "歌单",
+        "iconPath": "images/music.png",
+        "selectedIconPath": "images/music-active.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my-active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
