@@ -1,0 +1,79 @@
+{
+	"/api/getWeather": {
+		"method": "get",
+		"param": ["cityId"],
+		"form": ["CN101280101_0","CN101280102_1","CN101280103_2","CN101280104_3","CN101280105_4"],
+		"result":[
+		{"city":"广州","cnty":"中国","id":"CN101280101","loc":"2019-02-06 15:57","dotw":"星期三","txt":"雨","src":"http://127.0.0.1:8083/static/images/weather/rain.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+		{"city":"番禺","cnty":"中国","id":"CN101280102","loc":"2019-02-06 15:57","dotw":"星期三","txt":"晴","src":"http://127.0.0.1:8083/static/images/weather/sun.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+		{"city":"从化","cnty":"中国","id":"CN101280103","loc":"2019-02-06 15:57","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+		{"city":"增城","cnty":"中国","id":"CN101280104","loc":"2019-02-06 15:57","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+		{"city":"花都","cnty":"中国","id":"CN101280105","loc":"2019-02-06 15:57","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"}
+		],
+		"defult": {"basic":{"city":"广州","cnty":"中国","id":"CN101280101","lat":"23.12517738","lon":"113.28063965","update":{"loc":"2019-02-06 15:57","utc":"2019-02-06 07:57"}},"now":{"cond":{"code":"104","txt":"阴","src":"https://cdn.heweather.com/cond_icon/104.png"},"fl":"27","hum":"50","pcpn":"0.0","pres":"1011","tmp":"27","vis":"18","wind":{"deg":"184","dir":"南风","sc":"2","spd":"9"}},"status":"ok"}
+	},
+	"/api/getWeek": {
+		"method": "get",
+		"param": ["cityId"],
+		"form": ["CN101280101_0","CN101280102_1","CN101280103_2","CN101280104_3","CN101280105_4"],
+		"result":[
+			[
+				{"city":"广州","cnty":"中国","id":"CN101280101","loc":"02-07","dotw":"星期四","txt":"雨","src":"http://127.0.0.1:8083/static/images/weather/rain.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","cnty":"中国","id":"CN101280101","loc":"02-08","dotw":"星期五","txt":"晴","src":"http://127.0.0.1:8083/static/images/weather/sun.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","cnty":"中国","id":"CN101280101","loc":"02-09","dotw":"星期六","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","cnty":"中国","id":"CN101280101","loc":"02-10","dotw":"星期日","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"29","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","cnty":"中国","id":"CN101280101","loc":"02-11","dotw":"星期一","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"30","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","cnty":"中国","id":"CN101280101","loc":"02-12","dotw":"星期二","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"28","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","cnty":"中国","id":"CN101280101","loc":"02-13","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"}
+			],
+			[
+				{"city":"番禺","cnty":"中国","id":"CN101280102","loc":"02-07","dotw":"星期四","txt":"雨","src":"http://127.0.0.1:8083/static/images/weather/rain.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"番禺","cnty":"中国","id":"CN101280102","loc":"02-08","dotw":"星期五","txt":"晴","src":"http://127.0.0.1:8083/static/images/weather/sun.png","hum":"50","pcpn":"0.0","tmp":"28","vis":"18","dir":"南风","sc":"2"},
+				{"city":"番禺","cnty":"中国","id":"CN101280102","loc":"02-09","dotw":"星期六","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"29","vis":"18","dir":"南风","sc":"2"},
+				{"city":"番禺","cnty":"中国","id":"CN101280102","loc":"02-10","dotw":"星期日","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"30","vis":"18","dir":"南风","sc":"2"},
+				{"city":"番禺","cnty":"中国","id":"CN101280102","loc":"02-11","dotw":"星期一","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"28","vis":"18","dir":"南风","sc":"2"},
+				{"city":"番禺","cnty":"中国","id":"CN101280102","loc":"02-12","dotw":"星期二","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"番禺","cnty":"中国","id":"CN101280102","loc":"02-13","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"}
+			],
+			[
+				{"city":"从化","cnty":"中国","id":"CN101280103","loc":"02-07","dotw":"星期四","txt":"雨","src":"http://127.0.0.1:8083/static/images/weather/rain.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"从化","cnty":"中国","id":"CN101280103","loc":"02-08","dotw":"星期五","txt":"晴","src":"http://127.0.0.1:8083/static/images/weather/sun.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"从化","cnty":"中国","id":"CN101280103","loc":"02-09","dotw":"星期六","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"25","vis":"18","dir":"南风","sc":"2"},
+				{"city":"从化","cnty":"中国","id":"CN101280103","loc":"02-10","dotw":"星期日","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"26","vis":"18","dir":"南风","sc":"2"},
+				{"city":"从化","cnty":"中国","id":"CN101280103","loc":"02-11","dotw":"星期一","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"29","vis":"18","dir":"南风","sc":"2"},
+				{"city":"从化","cnty":"中国","id":"CN101280103","loc":"02-12","dotw":"星期二","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"30","vis":"18","dir":"南风","sc":"2"},
+				{"city":"从化","cnty":"中国","id":"CN101280103","loc":"02-13","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"28","vis":"18","dir":"南风","sc":"2"}
+			],
+			[
+				{"city":"增城","cnty":"中国","id":"CN101280104","loc":"02-07","dotw":"星期四","txt":"雨","src":"http://127.0.0.1:8083/static/images/weather/rain.png","hum":"50","pcpn":"0.0","tmp":"25","vis":"18","dir":"南风","sc":"2"},
+				{"city":"增城","cnty":"中国","id":"CN101280104","loc":"02-08","dotw":"星期五","txt":"晴","src":"http://127.0.0.1:8083/static/images/weather/sun.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"增城","cnty":"中国","id":"CN101280104","loc":"02-09","dotw":"星期六","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"26","vis":"18","dir":"南风","sc":"2"},
+				{"city":"增城","cnty":"中国","id":"CN101280104","loc":"02-10","dotw":"星期日","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"29","vis":"18","dir":"南风","sc":"2"},
+				{"city":"增城","cnty":"中国","id":"CN101280104","loc":"02-11","dotw":"星期一","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"增城","cnty":"中国","id":"CN101280104","loc":"02-12","dotw":"星期二","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"28","vis":"18","dir":"南风","sc":"2"},
+				{"city":"增城","cnty":"中国","id":"CN101280104","loc":"02-13","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"30","vis":"18","dir":"南风","sc":"2"}
+			],
+			[
+				{"city":"花都","cnty":"中国","id":"CN101280105","loc":"02-07","dotw":"星期四","txt":"雨","src":"http://127.0.0.1:8083/static/images/weather/rain.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"花都","cnty":"中国","id":"CN101280105","loc":"02-08","dotw":"星期五","txt":"晴","src":"http://127.0.0.1:8083/static/images/weather/sun.png","hum":"50","pcpn":"0.0","tmp":"25","vis":"18","dir":"南风","sc":"2"},
+				{"city":"花都","cnty":"中国","id":"CN101280105","loc":"02-09","dotw":"星期六","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"28","vis":"18","dir":"南风","sc":"2"},
+				{"city":"花都","cnty":"中国","id":"CN101280105","loc":"02-10","dotw":"星期日","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"29","vis":"18","dir":"南风","sc":"2"},
+				{"city":"花都","cnty":"中国","id":"CN101280105","loc":"02-11","dotw":"星期一","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"30","vis":"18","dir":"南风","sc":"2"},
+				{"city":"花都","cnty":"中国","id":"CN101280105","loc":"02-12","dotw":"星期二","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"29","vis":"18","dir":"南风","sc":"2"},
+				{"city":"花都","cnty":"中国","id":"CN101280105","loc":"02-13","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/weather/suncloud.png","hum":"50","pcpn":"0.0","tmp":"28","vis":"18","dir":"南风","sc":"2"}
+			]
+		],
+		"defult": {"basic":{"city":"广州","cnty":"中国","id":"CN101280101","lat":"23.12517738","lon":"113.28063965","update":{"loc":"2019-02-06 19:59","utc":"2019-02-06 11:59"}},"status":"ok","suggestion":{"air":{"brf":"良","txt":"气象条件有利于空气污染物稀释、扩散和清除，可在室外正常活动。"},"comf":{"brf":"较舒适","txt":"白天天气晴好，同时较大的空气湿度，会使您在午后略感闷热，但早晚仍很凉爽、舒适。"},"cw":{"brf":"较适宜","txt":"较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。"},"drsg":{"brf":"舒适","txt":"建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。"},"flu":{"brf":"少发","txt":"各项气象条件适宜，无明显降温过程，发生感冒机率较低。"},"sport":{"brf":"较适宜","txt":"阴天，较适宜进行各种户内外运动。"},"trav":{"brf":"适宜","txt":"天气较好，温度适宜，总体来说还是好天气哦，这样的天气适宜旅游，您可以尽情地享受大自然的风光。"},"uv":{"brf":"最弱","txt":"属弱紫外线辐射天气，无需特别防护。若长期在户外，建议涂擦SPF在8-12之间的防晒护肤品。"}}}
+	},
+	"/api/getAreas": {
+		"method": "get",
+		"defult": [{"pro": "广东", "larr": [{ "lea": "广州", "carr": [{ "city": "广州", "id": "CN101280101" }, { "city": "番禺", "id": "CN101280102" }, { "city": "从化", "id": "CN101280103" }, { "city": "增城", "id": "CN101280104" }, { "city": "花都", "id": "CN101280105" }]}]}]
+	}
+}
+
+
+
+
+
+
+

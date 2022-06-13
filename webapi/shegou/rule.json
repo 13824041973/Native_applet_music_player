@@ -1,0 +1,14 @@
+{
+	"/api/getVideo": {
+		"method": "get",
+		"defult": [
+			{
+				"id": "108251",
+				"videoUrl": "http://127.0.0.1:8083/static/videos/有道.mp4",
+				"albumname": "有道",
+				"artists": "",
+				"name": "有道"
+			}
+		]
+	}
+}

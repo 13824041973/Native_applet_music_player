@@ -1,0 +1,17 @@
+server:
+  port: 8083 #端口
+  context-path: /
+custom: 
+  cros-flag: false
+  resource-uri: /static/**
+  ##resource-path: classpath:/wxapp/
+  #resource-path: classpath:/weather/
+  resource-path: classpath:/music/
+  #resource-path: classpath:/shegou/
+  #resource-path: classpath:/video/
+  uri-error: '{"msg":"没有该uri,请检查配置。"}'
+  method-error: '{"code":"200","msg":"method类型不对,请检查配置。"}'
+  form-error: '{"msg":"表单提交错误，请检查配置。"}'
+  index-error: "{msg:返回内容有误,请检查配置。下标：%s}"
+  rule-error: "{msg:内容表达式有误,请检查配置。表达式：%s}"
+  

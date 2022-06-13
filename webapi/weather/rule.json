@@ -1,0 +1,87 @@
+{
+	"/api/getWeather": {
+		"method": "get",
+		"param": ["cityId"],
+		"form": ["CN101280101_0","CN101280102_1","CN101280103_2","CN101280104_3","CN101280105_4"],
+		"result":[
+		{"city":"广州","id":"CN101280101","loc":"2019-02-06 15:57","dotw":"星期三","txt":"雨","src":"http://127.0.0.1:8083/static/images/rain.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+		{"city":"番禺","id":"CN101280102","loc":"2019-02-06 15:57","dotw":"星期三","txt":"晴","src":"http://127.0.0.1:8083/static/images/sun.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+		{"city":"从化","id":"CN101280103","loc":"2019-02-06 15:57","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+		{"city":"增城","id":"CN101280104","loc":"2019-02-06 15:57","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+		{"city":"花都","id":"CN101280105","loc":"2019-02-06 15:57","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"}
+		],
+		"defult": {"city":"广州","cnty":"中国","id":"CN101280101","loc":"2019-02-06 15:57","dotw":"星期三","txt":"雨","src":"http://127.0.0.1:8083/static/images/rain.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"}
+	},
+	"/api/getWeek": {
+		"method": "get",
+		"param": ["cityId"],
+		"form": ["CN101280101_0","CN101280102_1","CN101280103_2","CN101280104_3","CN101280105_4"],
+		"result":[
+			[
+				{"city":"广州","id":"CN101280101","loc":"02-07","dotw":"星期四","txt":"雨","src":"http://127.0.0.1:8083/static/images/rain.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","id":"CN101280101","loc":"02-08","dotw":"星期五","txt":"晴","src":"http://127.0.0.1:8083/static/images/sun.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","id":"CN101280101","loc":"02-09","dotw":"星期六","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","id":"CN101280101","loc":"02-10","dotw":"星期日","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"29","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","id":"CN101280101","loc":"02-11","dotw":"星期一","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"30","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","id":"CN101280101","loc":"02-12","dotw":"星期二","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"28","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","id":"CN101280101","loc":"02-13","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"}
+			],
+			[
+				{"city":"番禺","id":"CN101280102","loc":"02-07","dotw":"星期四","txt":"雨","src":"http://127.0.0.1:8083/static/images/rain.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"番禺","id":"CN101280102","loc":"02-08","dotw":"星期五","txt":"晴","src":"http://127.0.0.1:8083/static/images/sun.png","hum":"50","pcpn":"0.0","tmp":"28","vis":"18","dir":"南风","sc":"2"},
+				{"city":"番禺","id":"CN101280102","loc":"02-09","dotw":"星期六","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"29","vis":"18","dir":"南风","sc":"2"},
+				{"city":"番禺","id":"CN101280102","loc":"02-10","dotw":"星期日","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"30","vis":"18","dir":"南风","sc":"2"},
+				{"city":"番禺","id":"CN101280102","loc":"02-11","dotw":"星期一","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"28","vis":"18","dir":"南风","sc":"2"},
+				{"city":"番禺","id":"CN101280102","loc":"02-12","dotw":"星期二","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"番禺","id":"CN101280102","loc":"02-13","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"}
+			],
+			[
+				{"city":"从化","id":"CN101280103","loc":"02-07","dotw":"星期四","txt":"雨","src":"http://127.0.0.1:8083/static/images/rain.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"从化","id":"CN101280103","loc":"02-08","dotw":"星期五","txt":"晴","src":"http://127.0.0.1:8083/static/images/sun.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"从化","id":"CN101280103","loc":"02-09","dotw":"星期六","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"25","vis":"18","dir":"南风","sc":"2"},
+				{"city":"从化","id":"CN101280103","loc":"02-10","dotw":"星期日","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"26","vis":"18","dir":"南风","sc":"2"},
+				{"city":"从化","id":"CN101280103","loc":"02-11","dotw":"星期一","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"29","vis":"18","dir":"南风","sc":"2"},
+				{"city":"从化","id":"CN101280103","loc":"02-12","dotw":"星期二","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"30","vis":"18","dir":"南风","sc":"2"},
+				{"city":"从化","id":"CN101280103","loc":"02-13","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"28","vis":"18","dir":"南风","sc":"2"}
+			],
+			[
+				{"city":"增城","id":"CN101280104","loc":"02-07","dotw":"星期四","txt":"雨","src":"http://127.0.0.1:8083/static/images/rain.png","hum":"50","pcpn":"0.0","tmp":"25","vis":"18","dir":"南风","sc":"2"},
+				{"city":"增城","id":"CN101280104","loc":"02-08","dotw":"星期五","txt":"晴","src":"http://127.0.0.1:8083/static/images/sun.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"增城","id":"CN101280104","loc":"02-09","dotw":"星期六","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"26","vis":"18","dir":"南风","sc":"2"},
+				{"city":"增城","id":"CN101280104","loc":"02-10","dotw":"星期日","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"29","vis":"18","dir":"南风","sc":"2"},
+				{"city":"增城","id":"CN101280104","loc":"02-11","dotw":"星期一","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"增城","id":"CN101280104","loc":"02-12","dotw":"星期二","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"28","vis":"18","dir":"南风","sc":"2"},
+				{"city":"增城","id":"CN101280104","loc":"02-13","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"30","vis":"18","dir":"南风","sc":"2"}
+			],
+			[
+				{"city":"花都","id":"CN101280105","loc":"02-07","dotw":"星期四","txt":"雨","src":"http://127.0.0.1:8083/static/images/rain.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"花都","id":"CN101280105","loc":"02-08","dotw":"星期五","txt":"晴","src":"http://127.0.0.1:8083/static/images/sun.png","hum":"50","pcpn":"0.0","tmp":"25","vis":"18","dir":"南风","sc":"2"},
+				{"city":"花都","id":"CN101280105","loc":"02-09","dotw":"星期六","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"28","vis":"18","dir":"南风","sc":"2"},
+				{"city":"花都","id":"CN101280105","loc":"02-10","dotw":"星期日","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"29","vis":"18","dir":"南风","sc":"2"},
+				{"city":"花都","id":"CN101280105","loc":"02-11","dotw":"星期一","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"30","vis":"18","dir":"南风","sc":"2"},
+				{"city":"花都","id":"CN101280105","loc":"02-12","dotw":"星期二","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"29","vis":"18","dir":"南风","sc":"2"},
+				{"city":"花都","id":"CN101280105","loc":"02-13","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"28","vis":"18","dir":"南风","sc":"2"}
+			]
+		],
+		"defult": [
+				{"city":"广州","id":"CN101280101","loc":"02-07","dotw":"星期四","txt":"雨","src":"http://127.0.0.1:8083/static/images/rain.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","id":"CN101280101","loc":"02-08","dotw":"星期五","txt":"晴","src":"http://127.0.0.1:8083/static/images/sun.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","id":"CN101280101","loc":"02-09","dotw":"星期六","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","id":"CN101280101","loc":"02-10","dotw":"星期日","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"29","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","id":"CN101280101","loc":"02-11","dotw":"星期一","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"30","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","id":"CN101280101","loc":"02-12","dotw":"星期二","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"28","vis":"18","dir":"南风","sc":"2"},
+				{"city":"广州","id":"CN101280101","loc":"02-13","dotw":"星期三","txt":"阴","src":"http://127.0.0.1:8083/static/images/suncloud.png","hum":"50","pcpn":"0.0","tmp":"27","vis":"18","dir":"南风","sc":"2"}
+			]
+	},
+	"/api/getAreas": {
+		"method": "get",
+		"defult": [{"pro": "广东", "larr": [{ "lea": "广州", "carr": [{ "city": "广州", "id": "CN101280101" }, { "city": "番禺", "id": "CN101280102" }, { "city": "从化", "id": "CN101280103" }, { "city": "增城", "id": "CN101280104" }, { "city": "花都", "id": "CN101280105" }]}]}]
+	}
+}
+
+
+
+
+
+
+

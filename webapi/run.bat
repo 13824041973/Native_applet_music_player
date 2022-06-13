@@ -1,0 +1,1 @@
+.\jre1.8.0_144\bin\java -jar .\webapi.jar

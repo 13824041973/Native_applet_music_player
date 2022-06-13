@@ -1,0 +1,25 @@
+{
+	"/login": {
+		"param": ["name","pwd"],
+		"form": ["chair_123456_1","may_123456_0","admin_123456_0","maybe_222888_2"],
+		"result": [{"msg":"登陆成功"},{"msg":"登陆成功2"},{"msg":"欢迎您登陆"}],
+		"defult": {"msg":"登陆失败"}
+
+	},
+		"/login2": {
+		"param": [],
+		"form": [],
+		"result": [],
+		"defult": {"msg":"文本"}
+
+	},
+		"/login3": {
+		"param": ["name","pwd"],
+		"form": ["chair_123456_0"],
+		"result": [[{"header":"标题二","content":"我好帅","date":"2018-11-2"},{"header":"标题三","content":"风好大","date":"2018-11-3"},
+		           {"header":"标题四","content":"我好冷","date":"2018-11-4"}]],
+		"defult": []
+
+	}
+	
+}

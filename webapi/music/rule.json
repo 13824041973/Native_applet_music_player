@@ -1,0 +1,21 @@
+{ 
+    "/api/getMusic": {
+        "method": "get", 
+        "defult": [
+                {"id": "108251","mp3Url": "http://127.0.0.1:8083/static/musics/%E7%94%9F%E5%83%BB%E5%AD%97.mp3","picUrl": "http://127.0.0.1:8083/static/images/%E9%99%88%E6%9F%AF%E5%AE%87.jpg","albumname": "生僻字","artists": "陈柯宇","name": "生僻字"}, 
+                {"id": "363488","mp3Url": "http://127.0.0.1:8083/static/musics/Katy%20Perry%20-%20Roar.mp3","picUrl": "http://127.0.0.1:8083/static/images/Zedd.jpg","albumname": "365","artists": "Zedd","name": "Katy Perry"}, 
+                {"id": "18449193","mp3Url": "http://127.0.0.1:8083/static/musics/Christine+welch+-+%E4%B8%80%E7%99%BE%E4%B8%87%E4%B8%AA%E5%8F%AF%E8%83%BD.mp3","picUrl": "http://127.0.0.1:8083/static/images/Christine%20Welch.jpg","albumname": "经典咏流传","artists": "Christine Welch","name": "一百万个可能"}, 
+                {"id": "21151698","mp3Url": "http://127.0.0.1:8083/static/musics/Olly%20Murs-That%20Girl.mp3","picUrl": "http://127.0.0.1:8083/static/images/Olly-Murs_thay-girl_guitar.jpg","albumname": "24 HRS","artists": "olly murs","name": "that girl"}, 
+                {"id": "27583635","mp3Url": "http://127.0.0.1:8083/static/musics/%E7%94%B7%E4%BA%BAKTV.mp3","picUrl": "http://127.0.0.1:8083/static/images/%E4%BE%A7%E7%94%B0.jpg","albumname": "男人歌","artists": "侧田","name": "男人ktv"}
+				
+				{"id": "2758363588","mp3Url": "http://127.0.0.1:8083/static/musics/花丸-芒种.mp3","picUrl": "http://127.0.0.1:8083/static/images/%E8%8A%B1%E4%B8%B8%E6%99%B4%E7%90%89.png","albumname": "虚拟主播","artists": "花丸晴琉","name": "芒种"}
+		]
+    },
+	    "/api/getVideo": {
+        "method": "get", 
+        "defult": [
+                {"id": "108251","videoUrl": "http://127.0.0.1:8083/static/video/%E7%94%9F%E5%83%BB%E5%AD%97.mp3","albumname": "えんこすみ","artists": "","name": "えんこすみ"}, 
+
+		]
+    }
+}
